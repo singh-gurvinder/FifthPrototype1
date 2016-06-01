@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.android.fifthprototype.MainActivity"
+tools:showIn="@layout/activity_main"
+android:orientation="vertical"
+android:background="#009688">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="San-seriff-light"
+        android:textColor="#FFFFFF"
+        />
+
+<EditText
+    android:id="@+id/elog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/email_log"
+    android:layout_marginTop="70dp"
+    android:textColor="#000000"
+    android:ems="10"/>
+
+<EditText
+    android:id="@+id/epass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/email_pass"
+    android:layout_marginTop="10dp"
+    android:textColor="#000000"
+    android:inputType="textPassword"
+    android:ems="10"/>
+
+<Button
+    android:id="@+id/log"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/log"
+    android:background="@color/colorPrimary"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="10dp"
+    android:onClick="homepage"
+    android:ems="10"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/sign"
+    android:background="@color/colorPrimary"
+    android:textColor="#FFFFFF"
+    android:layout_marginTop="10dp"
+    android:onClick="signup"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="@string/later"
+    android:layout_gravity="center"
+    android:textColor="#000000"
+    android:onClick="later_homepage"/>
+
+</LinearLayout>

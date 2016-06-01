@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Register"
+    tools:showIn="@layout/activity_main22"
+    android:orientation="vertical"
+    android:background="#009688">
+
+    <EditText
+        android:id="@+id/elog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_log"
+        android:layout_marginTop="150dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/epass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_pass"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/cpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_cpass"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:onClick="rhomepage"/>
+
+</LinearLayout>
